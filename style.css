@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.container-large{
+    height: 100vh;
+    overflow: hidden;
+}
+nav{
+    height: 3rem;
+    /* background-color:rgb(244, 250, 255); */
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 1rem;
+}
+.logo h2 span{
+    color:cadetblue;
+}
+nav .icon i{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+
+
+.main{
+    height: 40%;
+    background-color:  rgb(0, 0, 0,0.1);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    padding: 1rem;
+    display: flex;
+}
+input{
+    height: 3rem;
+    font-size: 2rem;
+    padding: 0 0.5rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0,0.5);
+}
+.btns{
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 0 0.5rem;
+    margin: 0 0.4rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0,0.5);
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    padding-top: 0.2rem;
+}
+h2 i{
+    margin: 0 0.3rem;
+}
+h2 span{
+    color: cadetblue;
+}
+.nav2{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.nav2 ul{
+    display: flex;
+    margin: 1rem 0.5;
+    padding: 0 1rem 0 0;
+
+}
+
+.nav2 ul li{
+    list-style-type: none;
+}
+.nav2 ul li a{
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    font-weight: 500;
+}
+
+.task{
+    margin-top: 1rem;
+}
+
+.task-list li{
+    list-style-type: none;
+    border-bottom: 1px solid rgb(0, 0, 0,0.2);
+    box-shadow: -1px -1px 2px rgba(0,0,0,0.5);
+    line-height: 2.5rem;
+    margin: 0.5rem 0;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    position: relative;
+    background-color:rgb(95, 158, 160,0.1);
+}
+
+.foot{
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    box-shadow: -2px -2px 10px rgb(0, 0, 0,0.5);
+    background-color:rgb(0, 0, 0,0.1);
+}
+.foot i{
+    font-size: 1.5rem;
+}
+
+#dark{
+}
+
+/* javasctipt style */
+
+
+.newtask{
+    text-decoration: line-through;
+}
+.newtastclass{
+    font-size: 1.2rem;
+}
+.check{
+    color: rgb(84, 238, 84);
+}
+.fa-square-check{
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+}
+.fa-square-check:active{
+    font-size: 1.15rem;
+}
+.fa-trash{
+    font-size: 1.15rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    color: rgb(234, 110, 110);
+}
+.fa-trash:active{
+    font-size: 1.1rem;
+}
